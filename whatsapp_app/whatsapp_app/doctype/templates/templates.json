@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:template_name",
+ "creation": "2022-08-09 17:48:21.233413",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "template_name",
+  "template_doctype",
+  "sample",
+  "table"
+ ],
+ "fields": [
+  {
+   "description": "copy and paste template content from wati.",
+   "fieldname": "sample",
+   "fieldtype": "Small Text",
+   "label": "Sample"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "Parameters"
+  },
+  {
+   "description": "copy and paste same template name as per wati.",
+   "fieldname": "template_name",
+   "fieldtype": "Data",
+   "label": "Template Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "template_doctype",
+   "fieldtype": "Select",
+   "label": "Doctype",
+   "options": "Lead\nSupplier"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-08 16:17:54.153114",
+ "modified_by": "Administrator",
+ "module": "Whatsapp App",
+ "name": "Templates",
+ "name_case": "Title Case",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
