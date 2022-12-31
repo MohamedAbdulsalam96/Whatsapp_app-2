@@ -26,7 +26,7 @@ $ bench --site <site-name> install-app whatsapp_app
 
 **Setup WhatsApp Integration in 5 simple steps!**
 
-- **Step 1** – Prior to getting started with WhatsApp integration, make sure you have a WATI account followed by end-to-end configuration. 
+- **Step 1** – Prior to getting started with WhatsApp integration, make sure you have a [WATI account](https://app.wati.io/register) followed by end-to-end configuration. 
  
 - **Step 2** – Firstly, Enable the API in your WATI account through the check box and then enter your access token, api endpoint, version, name type for WhatsApp integration. You can enable or disable the api accordingly.
 
