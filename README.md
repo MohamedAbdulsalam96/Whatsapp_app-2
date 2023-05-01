@@ -30,7 +30,7 @@ $ bench --site <site-name> install-app whatsapp_app
  
 - **Step 2** – Firstly, Enable the API in your WATI account through the check box and then enter your access token, api endpoint, version, name type for WhatsApp integration. You can enable or disable the api accordingly.
 
-![image](https://user-images.githubusercontent.com/121297494/210077289-5417accf-9b43-437b-b7cd-117992994126.png)
+![token](https://user-images.githubusercontent.com/121297494/235418599-4a7f9ac0-6f91-48fb-a835-af2455e8af9d.png)
 
 - **Step 3** - Create Dynamic Templates – After enabling, the next step includes creating a new template in wati. All you have to do is copy template name and content and paste in templates doctype. You can select the required fields for dynamic templates you need to add for end-to-end personalization.
 
